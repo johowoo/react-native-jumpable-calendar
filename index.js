@@ -24,7 +24,7 @@ const VIEWABILITY_CONFIG = {
     // waitForInteraction: true,
 };
 
-export class Calendar extends Component {
+export default class Calendar extends Component {
     static propTypes = {
         ...Calendar.propTypes,
         // Max amount of months allowed to scroll to the past. Default = 50
