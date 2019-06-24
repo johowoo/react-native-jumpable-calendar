@@ -26,7 +26,6 @@ const VIEWABILITY_CONFIG = {
 
 export default class Calendar extends Component {
     static propTypes = {
-        ...Calendar.propTypes,
         // Max amount of months allowed to scroll to the past. Default = 50
         pastScrollRange: PropTypes.number,
         // Max amount of months allowed to scroll to the future. Default = 50

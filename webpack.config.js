@@ -1,8 +1,8 @@
 const path = require('path');
-const htmlWebpackPlugin = new HtmlWebpackPlugin({
-    template: path.join(__dirname, "./example/src/index.html"),
-    filename: "./index.html"
-});
+// const htmlWebpackPlugin = new HtmlWebpackPlugin({
+//     template: path.join(__dirname, "./example/src/index.html"),
+//     filename: "./index.html"
+// });
 
 module.exports = {
     entry: path.join(__dirname, "./index.js"),

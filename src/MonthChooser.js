@@ -1,8 +1,6 @@
 import React, {Component} from "react";
 import {
     View,
-    Text,
-    TouchableOpacity,
     StyleSheet,
     Dimensions,
 } from "react-native";
@@ -58,14 +56,12 @@ export class MonthChooser extends Component {
     }
 
     render() {
-        console.warn(calendarWidth, this.props.calendarWidth);
         return (
             <View
                 style={{
                     flexDirection: "row",
                     height: 50,
                     marginLeft: 20,
-                    // justifyContent: "center",
                     alignItems: "center",
                 }}>
                 <ModalDropdown
@@ -143,7 +139,6 @@ const styles = StyleSheet.create({
         marginRight: calendarWidth * 0.02,
         borderWidth: 1,
         borderColor: "#aaa",
-        // backgroundColor:'#EEE',
         justifyContent: "center",
     },
     dropdownMenu: {
@@ -154,7 +149,6 @@ const styles = StyleSheet.create({
         marginRight: calendarWidth * 0.02,
         borderWidth: 1,
         borderColor: "#c69",
-        // backgroundColor:'#EEE',
         justifyContent: "center",
     },
     dropdownContainer: {
@@ -179,7 +173,6 @@ const styles = StyleSheet.create({
     },
     dropdownList: {
         width: calendarWidth * 0.2,
-        // marginTop: 15,
     },
     dropdownListText: {
         fontSize: 18,
