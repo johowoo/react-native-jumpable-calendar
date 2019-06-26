@@ -7,17 +7,6 @@ function padNumber(n) {
   return n;
 }
 
-function xdateToData(xdate) {
-  const dateString = xdate.toString("yyyy-MM-dd");
-  return {
-    year: xdate.getFullYear(),
-    month: xdate.getMonth() + 1,
-    day: xdate.getDate(),
-    timestamp: XDate(dateString, true).getTime(),
-    dateString: dateString,
-  };
-}
-
 function parseDate(d) {
   if (!d) {
   } else if (d.timestamp) {
@@ -42,6 +31,5 @@ function parseDate(d) {
 }
 
 module.exports = {
-  xdateToData,
   parseDate,
 };

@@ -39,25 +39,25 @@ export default class Calendar extends Component {
         // Enable or disable paging on scroll
         pagingEnabled: PropTypes.bool,
         // Whether the scroll is horizontal
-        horizontal: PropTypes.bool,
+        // horizontal: PropTypes.bool,
         // Used when calendar scroll is horizontal, default is device width, pagination should be disabled
         calendarWidth: PropTypes.number,
         // Dynamic calendar height
-        calendarHeight: PropTypes.number,
+        // calendarHeight: PropTypes.number,
         // Style for the List item (the calendar)
-        calendarStyle: PropTypes.oneOfType([
-            PropTypes.object,
-            PropTypes.number,
-            PropTypes.array,
-        ]),
-        // Whether to use static header that will not scroll with the list (horizontal only)
-        staticHeader: PropTypes.bool,
+        // calendarStyle: PropTypes.oneOfType([
+        //     PropTypes.object,
+        //     PropTypes.number,
+        //     PropTypes.array,
+        // ]),
+        // // Whether to use static header that will not scroll with the list (horizontal only)
+        // staticHeader: PropTypes.bool,
     };
 
     static defaultProps = {
-        horizontal: false,
+        // horizontal: false,
         calendarWidth: width,
-        calendarHeight: 360,
+        // calendarHeight: 360,
         pastScrollRange: 50,
         futureScrollRange: 50,
         showScrollIndicator: false,
@@ -66,6 +66,7 @@ export default class Calendar extends Component {
         removeClippedSubviews: Platform.OS === "android" ? false : true,
         pagingEnabled: true,
         showMonthChooser: false,
+        showTodayButton: true,
     };
     _onViewableItemsChange = async props => {
         const {viewableItems} = props;
@@ -243,6 +244,7 @@ export default class Calendar extends Component {
                         dropdownMenuStyle={this.props.dropdownMenuStyle}
                         disabledDropdownMenuTextStyle={this.props.disabledDropdownMenuTextStyle}
                         dropdownMenuTextStyle={this.props.dropdownMenuTextStyle}
+                        dropdownTextHighlightStyle={this.props.dropdownTextHighlightStyle}
                     />
                 ) : (
                     <View style={{height: 50}}>

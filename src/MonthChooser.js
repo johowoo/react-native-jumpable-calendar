@@ -77,9 +77,9 @@ export class MonthChooser extends Component {
                             : [styles.dropdownMenuText]
                     }
                     defaultValue={this.state.currentYear}
-                    dropdownStyle={[styles.dropdownList]}
-                    dropdownTextStyle={[styles.dropdownListText]}
-                    dropdownTextHighlightStyle={[styles.dropdownSelection]}
+                    dropdownStyle={[styles.dropdownList, this.props.dropdownStyle]}
+                    dropdownTextStyle={[styles.dropdownListText, this.props.dropdownListTextStyle]}
+                    dropdownTextHighlightStyle={[styles.dropdownSelection, this.props.dropdownTextHighlightStyle]}
                     disabled={this.state.disable1stDropdown}
                     options={Object.keys(this.state.choosableMonthsObj)}
                     onSelect={async (index, value) => {
