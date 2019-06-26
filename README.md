@@ -10,7 +10,7 @@ npm install react-native-jumpable-calendar --save
 
 ## Example
 
-![ios](http://xgfe.github.io/react-native-datepicker/img/react-native-datepicker-ios.gif)
+![ios](https://github.com/johowoo/react-native-jumpable-calendar/blob/master/img/react-native-jumpable-calendar-ios.gif)
 
 ## Usage
 
@@ -35,14 +35,6 @@ class _NewCalendar extends Component {
       },
     };
   }
-
-  componentWillMount() {
-    // this.props.setIsFirstTimeLogin(true);
-    // this.setState({
-    //
-    // })
-  }
-
   render() {
     return (
         <View style={styles.calendarWrapper}>
@@ -97,15 +89,3 @@ class _NewCalendar extends Component {
 | TouchableComponent | `TouchableHighlight` | `Component` | Replace the `TouchableHighlight` with a custom `Component`. For example : `TouchableOpacity` |
 | getDateStr | - | Function | A function to override how to format the date into a `String` for display, receives a `Date` instance
 
-### Property `customStyles` available keys
-
-* appearance: `dateInput`, `disabled`, `dateTouchBody`, `dateIcon`, `placeholderText`, `dateText`
-* ios select panel: `datePickerCon`, `datePicker`, `btnConfirm`, `btnTextConfirm`, `btnCancel`, `btnTextCancel`
-
-
-## Instance Methods
-
-| Method  | Params  | Description |
-| :------------ |:---------------:| :---------------:|
-| onPressDate | - | Manually open the date picker panel |
-| onPressCancel | - | Manually close the date picker panel like, similarly pressing cancel btn |
