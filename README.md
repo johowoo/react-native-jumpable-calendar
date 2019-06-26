@@ -10,7 +10,7 @@ npm install react-native-jumpable-calendar --save
 
 ## Example
 
-![ios](https://github.com/johowoo/react-native-jumpable-calendar/blob/master/img/react-native-jumpable-calendar-ios.gif)
+![ios](https://github.com/johowoo/react-native-jumpable-calendar/blob/master/img/ios.gif)
 
 ## Usage
 
