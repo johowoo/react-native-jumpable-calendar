@@ -154,8 +154,6 @@ const styles = StyleSheet.create({
         alignItems: "center",
     },
     datePureTextStyle: {
-        // fontFamily: "LuckiestGuyRegular",
-        fontFamily: "PacificoRegular",
         color: "#eee",
         fontSize: 32,
     },

@@ -161,14 +161,12 @@ const styles = StyleSheet.create({
     disabledDropdownMenuText: {
         marginLeft: 10,
         fontSize: 24,
-        fontFamily: "LobsterRegular",
         color: "#aaa",
     },
 
     dropdownMenuText: {
         marginLeft: 10,
         fontSize: 24,
-        fontFamily: "LobsterRegular",
         color: "#c69",
     },
     dropdownList: {

@@ -312,7 +312,6 @@ const styles = StyleSheet.create({
         margin: 10,
     },
     todayButtonTextStyle: {
-        fontFamily: "LobsterRegular",
         fontSize: 20,
         color: "#eee",
     },

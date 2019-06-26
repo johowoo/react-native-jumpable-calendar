@@ -33,13 +33,11 @@ export class CalendarHeader extends Component {
 const styles = StyleSheet.create({
     weekDayStyle: {
         width: "14.3%",
-        fontFamily: "PattayaRegular",
         fontSize: 18,
         color: "#ccc",
         textAlign: "center",
     },
     dateTextStyle: {
-        fontFamily: "PattayaRegular",
         fontSize: 26,
         marginLeft: 15,
     },
