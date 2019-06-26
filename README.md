@@ -75,8 +75,7 @@ class _NewCalendar extends Component {
 | showCalendarTextHeader | false | `boolean` | Controller whether or not display static calendar text header. |
 | dayTextArr | ["Sun"..."Sat"] | `array` | Restricts the range of possible date values. |
 | markedDates | {} | `object` |  Collection of dates that have to be marked. |
-
-| dropdownStyle | - | `object` | |
+| dropdownStyle | - | `object` | The hook of customize dropdown style. |
 | dropdownListTextStyle | - | `object` | The hook of customize dropdown style. |
 | dropdownSelectionStyle | - | `object` | The hook of customize dropdown style. |
 | disabledDropdownListStyle | - | `object` | The hook of customize dropdown style. |
