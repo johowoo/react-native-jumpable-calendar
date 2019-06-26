@@ -1,6 +1,6 @@
 {
   "name": "react-native-jumpable-calendar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a calendar component for react native platform. users can use dropdown list to jump to any month in the range ",
   "main": "index.js",
   "repository": "https://github.com/johowoo/react-native-jumpable-calendar.git",
