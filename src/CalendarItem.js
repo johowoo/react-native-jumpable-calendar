@@ -55,14 +55,6 @@ export class CalendarItem extends Component {
     }
 
     _renderItem = ({item, index}) => {
-        // let isMarked = false;
-        // let isDisabled = false;
-        // if (this.props.markedDatesObj) {
-        //     if (Object.keys(this.props.markedDatesObj).includes(item.day.toString())) {
-        //         isMarked = true;
-        //     }
-        // }
-
         return (
             <TouchableOpacity
                 style={{...styles.dateItemContainer, width: 0.143 * this.props.calendarWidth}}
@@ -82,7 +74,6 @@ export class CalendarItem extends Component {
                                         ?.selectedColor
                                         ? this.props.markedDatesObj[item.day]?.selectedColor
                                         : "#c69",
-                                    // backgroundColor:
                                 },
                             ]
                             : styles.innerContainer
@@ -116,7 +107,6 @@ export class CalendarItem extends Component {
                         })}
                         numColumns={7}
                         scrollEnabled={false}
-                        // horizontal={true}
                         extraData={this.props.markedDates}
                     />
                 ) : (
