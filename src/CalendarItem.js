@@ -16,7 +16,7 @@ export class CalendarItem extends Component {
     constructor(props) {
         super(props);
         //item->日期 直接显示日期
-        // const dataArr = [];
+        const dataArr = [];
         this.state = {};
         if (this.props.item instanceof XDate) {
             this.state.dataArr = returnDaysArr(this.props.item);
