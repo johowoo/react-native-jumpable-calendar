@@ -24,15 +24,6 @@ export class CalendarItem extends Component {
         const markedDaysObj = {};
         this.state.item = this.props.item;
         this.state.markedDatesObj = this.props.markedDatesObj;
-        // if (this.props.markedDatesArr.length > 0) {
-        //     this.props.markedDatesArr.forEach(item => {
-        //         if (Object.keys(item).length > 0) {
-        //             markedDaysObj[parseInt(Object.keys(item)[0]?.split("-")[2], 10)] = item[Object.keys(item)[0]];
-        //         }
-        //         markedDaysArr.push({[parseInt(Object.keys(item)[0].split("-")[2])]: item[Object.keys(item)[0]]});
-        //     });
-        //     this.props.markedDaysObj = markedDaysObj;
-        // }
     }
 
     componentWillReceiveProps(nextProps, nextContext) {
