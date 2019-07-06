@@ -171,21 +171,7 @@ export default class Calendar extends Component {
                     ] = this.props.markedDates[key];
             }
         }
-        // if (this.props.markedDatesArr.length > 0) {
-        //     this.props.markedDatesArr.forEach(item => {
-        //         if (Object.keys(item).length > 0) {
-        //             markedDaysObj[parseInt(Object.keys(item)[0]?.split("-")[2], 10)] = item[Object.keys(item)[0]];
-        //         }
-        //         markedDaysArr.push({[parseInt(Object.keys(item)[0].split("-")[2])]: item[Object.keys(item)[0]]});
-        //     });
-        //     this.state.markedDaysObj = markedDaysObj;
-        // }
 
-        // Object.keys(this.props.markedDates).map((item, index) => {
-        //     if (regExp.test(item)) {
-        //         markedDatesArr.push({[item]: this.props.markedDates[item]});
-        //     }
-        // });
         return (
             <CalendarItem
                 key={
