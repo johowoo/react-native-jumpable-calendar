@@ -184,8 +184,6 @@ export default class Calendar extends Component {
                 index={index}
                 onDayPress={this.props.onDayPress}
                 calendarWidth={this.props.calendarWidth}
-                // markedDates={this.props.markedDates}
-                // markedDatesArr={markedDatesArr}
                 markedDatesObj={markedDatesObj}
             />
         );

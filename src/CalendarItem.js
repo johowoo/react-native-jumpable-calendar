@@ -29,7 +29,6 @@ export class CalendarItem extends Component {
     componentWillReceiveProps(nextProps, nextContext) {
         if (nextProps.item instanceof XDate && nextProps.item !== this.state.item) {
             if (this.props.item instanceof XDate) {
-                // dataArr = returnDaysArr(this.props.item);
                 this.setState({dataArr: returnDaysArr(this.props.item)});
             }
         }
