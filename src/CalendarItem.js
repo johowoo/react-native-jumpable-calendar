@@ -15,10 +15,10 @@ const {width} = Dimensions.get("window");
 export class CalendarItem extends Component {
     constructor(props) {
         super(props);
-        //item->日期 直接显示日期
+
         const dataArr = [];
         this.state = {};
-        if (this.props.item instanceof XDate) {
+        if (this.props.item instanceof XDate) {//item->日期 直接显示日期
             this.state.dataArr = returnDaysArr(this.props.item);
         }
         const markedDaysObj = {};

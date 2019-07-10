@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ea90523f-5d21-4a02-9496-09447245d109" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -71,8 +70,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/CalendarItem.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="524">
-                      <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+                    <state relative-caret-position="565">
+                      <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
                       <folding>
                         <element signature="e#0#39#0" expanded="true" />
                       </folding>
@@ -163,12 +162,12 @@
         <option value="$PROJECT_DIR$/src/CalendarHeader.js" />
         <option value="$PROJECT_DIR$/src/MonthChooser.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/CalendarItem.js" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/src/CalendarItem.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="40" />
     <option name="y" value="72" />
     <option name="width" value="1636" />
@@ -259,11 +258,14 @@
       <workItem from="1562388642153" duration="631000" />
       <workItem from="1562557322648" duration="276000" />
       <workItem from="1562567118779" duration="175000" />
+      <workItem from="1562586563878" duration="25000" />
+      <workItem from="1562640586305" duration="230000" />
+      <workItem from="1562724097477" duration="513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15941000" />
+    <option name="totallyTimeSpent" value="16709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,7 +277,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="3360" height="1417" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24895021" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -290,7 +292,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32910052" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.26656628" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2663892" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -392,8 +394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CalendarItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="565">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
